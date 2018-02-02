@@ -1,0 +1,20 @@
+{
+    "name": "ecs/ecsantipreisalarm",
+    "description": "ECS Anti Preisalarm Module",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "eShop"],
+    "homepage": "https://ecomstyle.de/",
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "ecs/AntiPreisalarm"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecs\\AntiPreisalarm\\": "../../../source/modules/ecs/AntiPreisalarm"
+        }
+    }
+}

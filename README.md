@@ -1,5 +1,9 @@
 # AntiPreisalarm
 
+Shopversion
+
+    OXID eShop 6 (Version für OXID 4: [klick](https://github.com/eComStyle-de/ECS_AntiPreisalarm))
+
 Features
 
     Deaktiviert den Preisalarm bei allen Artikeln

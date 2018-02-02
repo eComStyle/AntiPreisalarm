@@ -2,7 +2,7 @@
 
 Shopversion
 
-    OXID eShop 6 (Version für OXID 4: [klick](https://github.com/eComStyle-de/ECS_AntiPreisalarm))
+    OXID eShop 6 (Version für OXID 4: https://github.com/eComStyle-de/ECS_AntiPreisalarm)
 
 Features
 

@@ -43,6 +43,6 @@ $aModule = array(
     'url'         => 'https://ecomstyle.de/',
     'email'       => 'info@ecomstyle.de',
     'extend'      => array(
-        \OxidEsales\Eshop\Application\Controller\ArticleDetailsController::class => Ecs\AntiPreisalarm\Application\Controller\ArticleDetailsController::class,
+        \OxidEsales\Eshop\Application\Component\Widget\ArticleDetails::class => Ecs\AntiPreisalarm\Application\Component\Widget\ArticleDetails::class,
             ),
 );

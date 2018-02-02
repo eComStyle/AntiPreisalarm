@@ -24,9 +24,9 @@
 * @link          https://ecomstyle.de/
 * @copyright (C) 2018
 */
-namespace Ecs\AntiPreisalarm\Application\Controller;
+namespace Ecs\AntiPreisalarm\Application\Component\Widget;
 
-class ArticleDetailsController extends ArticleDetailsController_parent {
+class ArticleDetails extends ArticleDetails_parent {
 
 	public function isPriceAlarm() {
 		return 0;

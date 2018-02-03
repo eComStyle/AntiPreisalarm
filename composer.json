@@ -1,5 +1,5 @@
 {
-    "name": "ecs/ecsantipreisalarm",
+    "name": "ecs/antipreisalarm",
     "description": "ECS Anti Preisalarm Module",
     "type": "oxideshop-module",
     "keywords": ["oxid", "modules", "eShop"],

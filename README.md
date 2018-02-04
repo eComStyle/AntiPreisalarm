@@ -2,8 +2,8 @@ AntiPreisalarm
 ==============
 
 ### Shopversion
-OXID eShop 6
-(Hier finden Sie eine Version für OXID 4: <https://github.com/eComStyle-de/ECS_AntiPreisalarm>)
+OXID eShop 6  
+(Version für OXID eShop 4: [ECS_AntiPreisalarm](https://github.com/eComStyle-de/ECS_AntiPreisalarm))
 
 ### Features
 Deaktiviert den Preisalarm bei allen Artikeln
@@ -12,8 +12,8 @@ Deaktiviert den Preisalarm bei allen Artikeln
 `composer require ecs/antipreisalarm:dev-master`
 
 ### Installation (Langform)
-- Erstellen Sie via SSH-Client eine Verbindung mit dem Server, auf dem Ihr eShop liegt.
-- Navigieren Sie in das Verzeichnis, in dem sich die Datei composer.json sowie die source- und vendor-Ordner befinden.
+- Erstellen Sie via SSH-Client eine Verbindung mit dem Server, auf dem Ihr OXID eShop liegt.
+- Wechseln Sie in Ihr OXID-Projektverzeichnis, in dem sich die Datei composer.json sowie die source- und vendor-Ordner befinden.
 - Führen Sie dort folgenden Befehl aus: `composer require ecs/antipreisalarm:dev-master`
 - Loggen Sie sich in Ihren Shop-Admin ein und aktivieren das neue Modul unter Erweiterungen/Module.
 

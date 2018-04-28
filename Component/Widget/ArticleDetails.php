@@ -20,17 +20,14 @@
  *
  */
 
-$sMetadataVersion = '2.0';
-$aModule = array(
-    'id'          => 'ecs_antipreisalarm',
-    'title'       => '<strong style="color:#04B431;">e</strong><strong>ComStyle.de</strong>:  <i>AntiPreisalarm</i>',
-    'description' => 'Deaktiviert den Preisalarm bei allen Artikeln',
-    'thumbnail'   => 'out/pictures/ecs.png',
-    'version'     => '1.0.1',
-    'author'      => '<strong style="font-size: 17px;color:#04B431;">e</strong><strong style="font-size: 16px;">ComStyle.de</strong>',
-    'url'         => 'https://ecomstyle.de/',
-    'email'       => 'support@ecomstyle.de',
-    'extend'      => array(
-        \OxidEsales\Eshop\Application\Component\Widget\ArticleDetails::class => Ecs\AntiPreisalarm\Component\Widget\ArticleDetails::class,
-    ),
-);
+namespace Ecs\AntiPreisalarm\Component\Widget;
+
+class ArticleDetails extends ArticleDetails_parent
+{
+
+    public function isPriceAlarm()
+    {
+        return 0;
+    }
+
+}

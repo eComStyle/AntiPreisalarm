@@ -1,9 +1,7 @@
 <?php
-
-/**
-*    Please retain this copyright header in all versions of the software
+/*    Please retain this copyright header in all versions of the software
 *
-*    Copyright (C) Josef A. Puckl | eComStyle.de
+*    Copyright (C) 2014  Josef A. Puckl | eComStyle.de
 *
 *    This program is free software: you can redistribute it and/or modify
 *    it under the terms of the GNU General Public License as published by
@@ -17,19 +15,11 @@
 *
 *    You should have received a copy of the GNU General Public License
 *    along with this program.  If not, see {http://www.gnu.org/licenses/}.
-*
-* @category      module
-* @package       AntiPreisalarm
-* @author        eComStyle.de
-* @link          https://ecomstyle.de/
-* @copyright (C) 2018
 */
-namespace Ecs\AntiPreisalarm\Application\Component\Widget;
-
-class ArticleDetails extends ArticleDetails_parent {
-
-	public function isPriceAlarm() {
+class antipreisalarm extends antipreisalarm_parent
+{
+	public function isPriceAlarm()
+	{
 		return 0;
 	}
-
 }
